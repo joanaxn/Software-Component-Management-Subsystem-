@@ -70,39 +70,40 @@ Controlo de visibilidade com base no papel do utilizador
 - Google Translate Widget
 - jQuery TableSorter
 
-
-### Como Executar o Projeto (Sem XAMPP)
-### 1️. Pré-requisitos
-
+  
+### 1️⃣ Pré-requisitos
 PHP ≥ 8.1 instalado
 Verificar com:
-  ####  php -v
+
+php -v
 
 
 MySQL ou MariaDB instalado
 Verificar com:
-   #### mysql --version
 
-### 2️. Criar a Base de Dados
+mysql --version
+
+### 2️⃣ Criar a Base de Dados
+
 Abrir o terminal e executar:
 
-## mysql -u root -p -e "CREATE DATABASE srsWeb;"
+mysql -u root -p -e "CREATE DATABASE srsWeb;"
 
-### 3️. Importar o ficheiro SQL
+### 3️⃣ Importar o ficheiro SQL
 
-Na pasta do projeto, correr:
-   #### mysql -u root -p srsWeb < sqlBD.sql
+Na raiz do projeto, correr:
 
-### 4️. Iniciar o Servidor PHP
+mysql -u root -p srsWeb < sqlBD.sql
+
+### 4️⃣ Iniciar o Servidor PHP
 
 Navegar até à pasta group3 (onde está o projeto):
 
-  #### cd group3
-  #### php -S localhost:8000
+cd group3
+php -S localhost:8000
 
-### Aceder no navegador
+### 5️⃣ Aceder no navegador
 
 Abrir:
 
-   #### http://localhost:8000/Login/login.php
-
+http://localhost:8000/Login/login.php
