@@ -102,7 +102,7 @@ Navegar até à pasta group3 (onde está o projeto):
 cd group3
 php -S localhost:8000
 
-### 5️⃣ Aceder no navegador
+### 5. Aceder no navegador
 
 Abrir:
 
