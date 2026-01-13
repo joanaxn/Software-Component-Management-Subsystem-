@@ -71,7 +71,7 @@ Controlo de visibilidade com base no papel do utilizador
 - jQuery TableSorter
 
   
-### 1️⃣ Pré-requisitos
+### 1. Pré-requisitos
 PHP ≥ 8.1 instalado
 Verificar com:
 
@@ -83,19 +83,19 @@ Verificar com:
 
 mysql --version
 
-### 2️⃣ Criar a Base de Dados
+### 2️. Criar a Base de Dados
 
 Abrir o terminal e executar:
 
 mysql -u root -p -e "CREATE DATABASE srsWeb;"
 
-### 3️⃣ Importar o ficheiro SQL
+### 3️. Importar o ficheiro SQL
 
 Na raiz do projeto, correr:
 
 mysql -u root -p srsWeb < sqlBD.sql
 
-### 4️⃣ Iniciar o Servidor PHP
+### 4. Iniciar o Servidor PHP
 
 Navegar até à pasta group3 (onde está o projeto):
 
